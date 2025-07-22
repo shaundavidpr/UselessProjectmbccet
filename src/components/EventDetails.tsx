@@ -29,7 +29,7 @@ const EventDetails = () => {
     }
   ];
 
-  const sponsors = [
+  /*const sponsors = [
     {
       name: "IEDC MBCCET",
       role: "Co-Organizer",
@@ -40,7 +40,7 @@ const EventDetails = () => {
       role: "Technology Partner",
       logo: "🚀"
     }
-  ];
+  ];*/
 
   return (
     <section className="py-20 bg-gradient-to-b from-surface to-background">
