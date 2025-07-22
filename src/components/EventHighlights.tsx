@@ -5,7 +5,7 @@ const EventHighlights = () => {
   const highlights = [
     {
       icon: Clock,
-      title: "18-Hour Challenge",
+      title: "15-Hour Challenge",
       description: "Build anything. Imagination is your limit.",
       delay: "0s"
     },
