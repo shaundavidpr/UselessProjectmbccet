@@ -107,7 +107,7 @@ const EventDetails = () => {
 
         {/* Sponsors */}
         <div className="text-center">
-          <h3 className="text-2xl font-bold mb-8 text-foreground">Organized By</h3>
+          <h3 className="text-2xl font-bold mb-8 text-foreground"></h3>
           <div className="flex flex-wrap justify-center gap-8">
             {sponsors.map(({ name, role, logo }, index) => (
               <div 
