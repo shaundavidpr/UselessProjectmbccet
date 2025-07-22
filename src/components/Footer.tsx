@@ -40,8 +40,8 @@ const Footer = () => {
             <div className="space-y-3">
               <div>
                 <p className="text-sm font-semibold text-primary">Date & Time</p>
-                <p className="text-sm text-muted-foreground">November 2-3, 2025</p>
-                <p className="text-sm text-muted-foreground">2:00 PM – 8:00 AM</p>
+                <p className="text-sm text-muted-foreground">August 1-2, 2025</p>
+                <p className="text-sm text-muted-foreground">5:00 PM – 8:00 AM</p>
               </div>
               <div>
                 <p className="text-sm font-semibold text-primary">Venue</p>
@@ -51,7 +51,7 @@ const Footer = () => {
               <div>
                 <p className="text-sm font-semibold text-primary">Format</p>
                 <p className="text-sm text-muted-foreground">18-Hour Make-a-thon</p>
-                <p className="text-sm text-muted-foreground">Limited to 100 participants</p>
+                <p className="text-sm text-muted-foreground">Limited to 150 participants</p>
               </div>
             </div>
           </div>
