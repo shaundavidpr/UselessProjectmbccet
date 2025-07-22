@@ -29,16 +29,16 @@ const Navbar = () => {
         : 'bg-transparent'
     }`}>
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <div className="flex items-center space-x-3">
             <img 
               src={tinkerHubLogo} 
               alt="TinkerHub MBCCET" 
-              className="h-8 w-8 animate-glow-pulse"
+              className="h-10 w-10"
             />
-            <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
-              TinkerHub MBCCET Peermade
+            <span className="text-xl font-display font-semibold text-foreground">
+              TinkerHub MBCCET
             </span>
           </div>
 
@@ -48,10 +48,10 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-foreground hover:text-primary transition-colors duration-300 relative group"
+                className="text-muted-foreground hover:text-primary transition-colors duration-200 font-medium relative group"
               >
                 {item.name}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-primary transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-primary transition-all duration-200 group-hover:w-full"></span>
               </a>
             ))}
           </div>
@@ -71,7 +71,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isMobileMenuOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 bg-card/95 backdrop-blur-lg border-b border-primary/20 animate-fade-in">
+          <div className="md:hidden absolute top-20 left-0 right-0 bg-card/95 backdrop-blur-lg border-b border-primary/20 animate-fade-in">
             <div className="px-4 py-4 space-y-4">
               {navItems.map((item) => (
                 <a

@@ -53,14 +53,14 @@ const HeroSection = () => {
             />
           </div>
           
-          <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
-            A first-of-its-kind 18-hour make-a-thon for boundless creativity!
+          <p className="text-xl md:text-2xl text-muted-foreground mb-12 font-light max-w-3xl mx-auto leading-relaxed">
+            A first-of-its-kind 18-hour make-a-thon for boundless creativity and innovation
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
+          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
             <Button 
               size="lg" 
-              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-lg px-8 py-4 animate-glow-pulse"
+              className="bg-gradient-primary hover:scale-[1.02] transition-all duration-200 shadow-lg text-lg px-10 py-4 font-medium"
             >
               <Zap className="mr-2" size={20} />
               Register Now
@@ -69,30 +69,33 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg px-8 py-4"
+              className="border-2 border-primary/50 text-primary hover:bg-primary/10 hover:border-primary transition-all duration-200 text-lg px-10 py-4 font-medium"
             >
               Learn More
             </Button>
           </div>
 
           {/* Event Quick Info */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
-            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in">
-              <Calendar className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">November 2-3</p>
-              <p className="font-semibold">18-Hour Challenge</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
+            <div className="bg-surface-elevated/80 backdrop-blur-md p-8 rounded-xl border border-primary/10 hover:border-primary/30 transition-all duration-300 text-center">
+              <Calendar className="text-primary mb-4 mx-auto" size={28} />
+              <p className="text-sm text-muted-foreground mb-1 font-medium">Event Dates</p>
+              <p className="font-semibold text-lg">November 2-3</p>
+              <p className="text-sm text-muted-foreground mt-1">18-Hour Challenge</p>
             </div>
             
-            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.2s' }}>
-              <Users className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">Limited to</p>
-              <p className="font-semibold">100 Participants</p>
+            <div className="bg-surface-elevated/80 backdrop-blur-md p-8 rounded-xl border border-primary/10 hover:border-primary/30 transition-all duration-300 text-center">
+              <Users className="text-primary mb-4 mx-auto" size={28} />
+              <p className="text-sm text-muted-foreground mb-1 font-medium">Participants</p>
+              <p className="font-semibold text-lg">Limited to 100</p>
+              <p className="text-sm text-muted-foreground mt-1">Exclusive Opportunity</p>
             </div>
             
-            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              <Trophy className="text-primary mb-2 mx-auto" size={24} />
-              <p className="text-sm text-muted-foreground">Recognition for</p>
-              <p className="font-semibold">Top Creators</p>
+            <div className="bg-surface-elevated/80 backdrop-blur-md p-8 rounded-xl border border-primary/10 hover:border-primary/30 transition-all duration-300 text-center">
+              <Trophy className="text-primary mb-4 mx-auto" size={28} />
+              <p className="text-sm text-muted-foreground mb-1 font-medium">Recognition</p>
+              <p className="font-semibold text-lg">Top Creators</p>
+              <p className="text-sm text-muted-foreground mt-1">Showcase & Awards</p>
             </div>
           </div>
         </div>
