@@ -80,7 +80,7 @@ const EventDetails = () => {
             <CardHeader>
               <CardTitle className="text-2xl text-center flex items-center justify-center gap-2">
                 <Award className="text-primary" size={28} />
-                18-Hour Make-a-thon Format
+                15-Hour Make-a-thon Format
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
@@ -100,7 +100,7 @@ const EventDetails = () => {
                   <p className="text-sm text-muted-foreground">7:00 AM - 8:00 AM</p>
                   <p className="text-sm mt-2">Present to the community</p>
                 </div>
-              </div>k
+              </div>
             </CardContent>
           </Card>
         </div>
