@@ -32,11 +32,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-3">
-            <img 
-              src={tinkerHubLogo} 
-              alt="TinkerHub MBCCET" 
-              className="h-8 w-8 animate-glow-pulse"
-            />
+           
             <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
               
             </span>
