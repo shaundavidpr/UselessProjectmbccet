@@ -6,14 +6,14 @@ const EventDetails = () => {
     {
       icon: Calendar,
       label: "Date",
-      value: "November 2-3, 2025",
+      value: "August 1-2, 2025",
       description: "Weekend make-a-thon"
     },
     {
       icon: Clock,
       label: "Duration",
       value: "18 Hours",
-      description: "2:00 PM - 8:00 AM"
+      description: "5:00 PM - 8:00 AM"
     },
     {
       icon: MapPin,
@@ -24,12 +24,12 @@ const EventDetails = () => {
     {
       icon: Users,
       label: "Participants",
-      value: "100 Makers",
+      value: "150 Makers",
       description: "Limited seats available"
     }
   ];
 
-  const sponsors = [
+  /*const sponsors = [
     {
       name: "IEDC MBCCET",
       role: "Co-Organizer",
@@ -40,7 +40,7 @@ const EventDetails = () => {
       role: "Technology Partner",
       logo: "🚀"
     }
-  ];
+  ];*/
 
   return (
     <section className="py-20 bg-gradient-to-b from-surface to-background">
@@ -87,7 +87,7 @@ const EventDetails = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center p-4 bg-surface-elevated rounded-lg">
                   <h4 className="font-bold text-primary mb-2">Build Phase</h4>
-                  <p className="text-sm text-muted-foreground">2:00 PM - 6:00 AM</p>
+                  <p className="text-sm text-muted-foreground">5:00 PM - 8:00 AM</p>
                   <p className="text-sm mt-2">16 hours of pure creativity and coding</p>
                 </div>
                 <div className="text-center p-4 bg-surface-elevated rounded-lg">
@@ -125,7 +125,7 @@ const EventDetails = () => {
           <div className="mt-12 p-6 bg-gradient-card rounded-xl border border-primary/20 max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: '0.8s' }}>
             <Heart className="text-primary mx-auto mb-4" size={32} />
             <p className="text-muted-foreground">
-              Made with ❤️ by the TinkerHub MBCCET and IEDC MBCCET community for makers, creators, and dreamers everywhere.
+              Made with ❤️ by the TinkerHub MBCCET and creators, and dreamers everywhere.
             </p>
           </div>
         </div>
