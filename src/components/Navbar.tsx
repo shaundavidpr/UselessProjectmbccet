@@ -38,7 +38,7 @@ const Navbar = () => {
               className="h-8 w-8 animate-glow-pulse"
             />
             <span className="text-lg font-bold bg-gradient-primary bg-clip-text text-transparent">
-              TinkerHub MBCCET Peermade
+              
             </span>
           </div>
 
