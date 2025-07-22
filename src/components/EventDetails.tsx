@@ -31,14 +31,14 @@ const EventDetails = () => {
 
   const sponsors = [
     {
-      name: "IEDC MBCCET",
-      role: "Co-Organizer",
-      logo: "🏢"
+      name: "",
+      role: "",
+      logo: ""
     },
     {
-      name: "Wexron Hosting",
-      role: "Technology Partner",
-      logo: "🚀"
+      name: "",
+      role: "",
+      logo: ""
     }
   ];
 
