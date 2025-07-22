@@ -12,7 +12,7 @@ const EventDetails = () => {
     {
       icon: Clock,
       label: "Duration",
-      value: "18 Hours",
+      value: "15 Hours",
       description: "5:00 PM - 8:00 AM"
     },
     {
@@ -100,7 +100,7 @@ const EventDetails = () => {
                   <p className="text-sm text-muted-foreground">7:00 AM - 8:00 AM</p>
                   <p className="text-sm mt-2">Present to the community</p>
                 </div>
-              </div>
+              </div>k
             </CardContent>
           </Card>
         </div>
