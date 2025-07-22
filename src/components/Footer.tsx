@@ -30,7 +30,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Build literally anything – imagination is your limit. Join the most creative 18-hour make-a-thon experience.
+              Build literally anything – imagination is your limit. Join the most creative 15-hour make-a-thon experience.
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Footer = () => {
               </div>
               <div>
                 <p className="text-sm font-semibold text-primary">Format</p>
-                <p className="text-sm text-muted-foreground">18-Hour Make-a-thon</p>
+                <p className="text-sm text-muted-foreground">15-Hour Make-a-thon</p>
                 <p className="text-sm text-muted-foreground">Limited to 150 participants</p>
               </div>
             </div>
