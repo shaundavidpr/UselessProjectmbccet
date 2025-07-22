@@ -80,7 +80,7 @@ const RegistrationCTA = () => {
               </h2>
               
               <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-                Don't miss this opportunity to showcase your creativity. Registration closes at 100 participants!
+                Don't miss this opportunity to showcase your creativity. Registration closes at 150 participants!
               </p>
 
               {/* Registration Stats */}
@@ -99,7 +99,7 @@ const RegistrationCTA = () => {
                 
                 <div className="bg-gradient-card p-6 rounded-xl border border-primary/20 animate-slide-in-right" style={{ animationDelay: '0.6s' }}>
                   <Clock className="text-primary mx-auto mb-2" size={32} />
-                  <p className="text-2xl font-bold text-foreground">18</p>
+                  <p className="text-2xl font-bold text-foreground">15</p>
                   <p className="text-sm text-muted-foreground">Hours of Fun</p>
                 </div>
               </div>
