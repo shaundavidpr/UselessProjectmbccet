@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { Zap, Calendar, Users, Trophy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroBackground from '@/assets/hero-bg.jpg';
-import uselessLogo from '@/assets/useless-logo.png';
 
 const HeroSection = () => {
   const [isGlitching, setIsGlitching] = useState(false);
@@ -41,26 +40,25 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="animate-fade-in">
-          {/* Logo */}
-          <div className="mb-6">
-            <img 
-              src={uselessLogo} 
-              alt="Useless Projects Logo" 
-              className={`w-64 md:w-80 lg:w-96 mx-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
-                isGlitching ? 'animate-glitch' : ''
-              }`}
-              onClick={handleTitleClick}
-            />
-          </div>
+          <h1 
+            className={`text-5xl md:text-7xl lg:text-8xl font-bold mb-6 cursor-pointer transition-all duration-300 ${
+              isGlitching ? 'animate-glitch' : ''
+            }`}
+            onClick={handleTitleClick}
+          >
+            <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow">
+              Useless Projects
+            </span>
+          </h1>
           
-          <p className="text-xl md:text-2xl text-muted-foreground mb-12 font-light max-w-3xl mx-auto leading-relaxed">
-            A first-of-its-kind 18-hour make-a-thon for boundless creativity and innovation
+          <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
+            A first-of-its-kind 18-hour make-a-thon for boundless creativity!
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button 
               size="lg" 
-              className="bg-gradient-primary hover:scale-[1.02] transition-all duration-200 shadow-lg text-lg px-10 py-4 font-medium"
+              className="bg-gradient-primary hover:scale-105 transition-all duration-300 shadow-glow text-lg px-8 py-4 animate-glow-pulse"
             >
               <Zap className="mr-2" size={20} />
               Register Now
@@ -69,33 +67,30 @@ const HeroSection = () => {
             <Button 
               variant="outline" 
               size="lg"
-              className="border-2 border-primary/50 text-primary hover:bg-primary/10 hover:border-primary transition-all duration-200 text-lg px-10 py-4 font-medium"
+              className="border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg px-8 py-4"
             >
               Learn More
             </Button>
           </div>
 
           {/* Event Quick Info */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-16">
-            <div className="bg-surface-elevated/80 backdrop-blur-md p-8 rounded-xl border border-primary/10 hover:border-primary/30 transition-all duration-300 text-center">
-              <Calendar className="text-primary mb-4 mx-auto" size={28} />
-              <p className="text-sm text-muted-foreground mb-1 font-medium">Event Dates</p>
-              <p className="font-semibold text-lg">November 2-3</p>
-              <p className="text-sm text-muted-foreground mt-1">18-Hour Challenge</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12">
+            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in">
+              <Calendar className="text-primary mb-2 mx-auto" size={24} />
+              <p className="text-sm text-muted-foreground">November 2-3</p>
+              <p className="font-semibold">18-Hour Challenge</p>
             </div>
             
-            <div className="bg-surface-elevated/80 backdrop-blur-md p-8 rounded-xl border border-primary/10 hover:border-primary/30 transition-all duration-300 text-center">
-              <Users className="text-primary mb-4 mx-auto" size={28} />
-              <p className="text-sm text-muted-foreground mb-1 font-medium">Participants</p>
-              <p className="font-semibold text-lg">Limited to 100</p>
-              <p className="text-sm text-muted-foreground mt-1">Exclusive Opportunity</p>
+            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.2s' }}>
+              <Users className="text-primary mb-2 mx-auto" size={24} />
+              <p className="text-sm text-muted-foreground">Limited to</p>
+              <p className="font-semibold">100 Participants</p>
             </div>
             
-            <div className="bg-surface-elevated/80 backdrop-blur-md p-8 rounded-xl border border-primary/10 hover:border-primary/30 transition-all duration-300 text-center">
-              <Trophy className="text-primary mb-4 mx-auto" size={28} />
-              <p className="text-sm text-muted-foreground mb-1 font-medium">Recognition</p>
-              <p className="font-semibold text-lg">Top Creators</p>
-              <p className="text-sm text-muted-foreground mt-1">Showcase & Awards</p>
+            <div className="bg-surface-elevated/50 backdrop-blur-sm p-6 rounded-lg border border-primary/20 hover:border-primary/40 transition-all duration-300 animate-fade-in" style={{ animationDelay: '0.4s' }}>
+              <Trophy className="text-primary mb-2 mx-auto" size={24} />
+              <p className="text-sm text-muted-foreground">Recognition for</p>
+              <p className="font-semibold">Top Creators</p>
             </div>
           </div>
         </div>
