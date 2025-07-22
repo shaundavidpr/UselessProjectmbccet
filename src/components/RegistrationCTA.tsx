@@ -20,8 +20,8 @@ const RegistrationCTA = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const spotsLeft = 100 - registeredCount;
-  const progressPercentage = (registeredCount / 100) * 100;
+  const spotsLeft = 150 - registeredCount;
+  const progressPercentage = (registeredCount / 150) * 150;
 
   return (
     <>
@@ -42,7 +42,7 @@ const RegistrationCTA = () => {
           
           <div className="mb-3">
             <div className="flex justify-between text-xs text-muted-foreground mb-1">
-              <span>{registeredCount}/100 registered</span>
+              <span>{registeredCount}/150 registered</span>
               <span>{progressPercentage.toFixed(0)}%</span>
             </div>
             <div className="w-full bg-surface-elevated rounded-full h-2">
@@ -108,7 +108,7 @@ const RegistrationCTA = () => {
               <div className="mb-8 animate-fade-in" style={{ animationDelay: '0.8s' }}>
                 <div className="flex justify-between text-sm text-muted-foreground mb-2">
                   <span>Registration Progress</span>
-                  <span>{registeredCount}/100 participants</span>
+                  <span>{registeredCount}/150 participants</span>
                 </div>
                 <div className="w-full bg-surface-elevated rounded-full h-3 overflow-hidden">
                   <div 
@@ -146,7 +146,7 @@ const RegistrationCTA = () => {
               <div className="mt-8 p-4 bg-destructive/10 border border-destructive/20 rounded-lg max-w-md mx-auto animate-fade-in" style={{ animationDelay: '1.2s' }}>
                 <p className="text-destructive font-semibold flex items-center justify-center gap-2">
                   <AlertCircle size={20} />
-                  Registration closes when we reach 100 participants!
+                  Registration closes when we reach 150 participants!
                 </p>
               </div>
             </div>
