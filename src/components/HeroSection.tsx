@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Zap, Calendar, Users, Trophy } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import heroBackground from '@/assets/hero-bg.jpg';
+import uselessLogo from '@/assets/useless-logo.png';
 
 const HeroSection = () => {
   const [isGlitching, setIsGlitching] = useState(false);
@@ -40,16 +41,15 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="animate-fade-in">
-          <h1 
-            className={`text-5xl md:text-7xl lg:text-8xl font-bold mb-6 cursor-pointer transition-all duration-300 ${
-              isGlitching ? 'animate-glitch' : ''
-            }`}
-            onClick={handleTitleClick}
-          >
-            <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow">
-              Useless Projects
-            </span>
-          </h1>
+          {/* Logo */}
+          <div className="mb-8">
+            <img 
+              src={uselessLogo} 
+              alt="Useless Projects Logo" 
+              className="w-80 md:w-96 lg:w-[500px] mx-auto cursor-pointer transition-all duration-300 hover:scale-105"
+              onClick={handleTitleClick}
+            />
+          </div>
           
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
             A first-of-its-kind 18-hour make-a-thon for boundless creativity!
