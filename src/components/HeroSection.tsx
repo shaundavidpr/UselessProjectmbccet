@@ -42,11 +42,13 @@ const HeroSection = () => {
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
         <div className="animate-fade-in">
           {/* Logo */}
-          <div className="mb-8">
+          <div className="mb-6">
             <img 
               src={uselessLogo} 
               alt="Useless Projects Logo" 
-              className="w-80 md:w-96 lg:w-[500px] mx-auto cursor-pointer transition-all duration-300 hover:scale-105"
+              className={`w-64 md:w-80 lg:w-96 mx-auto cursor-pointer transition-all duration-300 hover:scale-105 ${
+                isGlitching ? 'animate-glitch' : ''
+              }`}
               onClick={handleTitleClick}
             />
           </div>
