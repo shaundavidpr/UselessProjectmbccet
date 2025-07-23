@@ -47,7 +47,7 @@ const HeroSection = () => {
             onClick={handleTitleClick}
           >
             <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow">
-              Useless Projects
+              
             </span>
           </h1>
           
