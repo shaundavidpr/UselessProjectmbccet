@@ -17,11 +17,12 @@ const Footer = () => {
           {/* Brand Section */}
           <div className="space-y-4">
             <div className="flex items-center space-x-3">
-              <img 
-                src={tinkerHubLogo} 
-                alt="TinkerHub MBCCET" 
-                className="h-10 w-10 animate-glow-pulse"
-              />
+                <img 
+      src="https://i.postimg.cc/KvLVqbQH/brave-screenshot.png" 
+      alt="Useless Projects" 
+      className="h-10 w-10 animate-glow-pulse" 
+    />
+
               <div>
                 <h3 className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
                   Useless Projects
