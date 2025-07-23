@@ -48,7 +48,7 @@ const HeroSection = () => {
           >
         <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow inline-block">
               <img
-                src="/assets/useless" // Replace with your actual image path
+                src="/assets/useless.png" // Replace with your actual image path
                 alt=""
                 className="w-full h-auto"
               />
