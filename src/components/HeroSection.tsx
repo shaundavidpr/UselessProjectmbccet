@@ -46,13 +46,14 @@ const HeroSection = () => {
             }`}
             onClick={handleTitleClick}
           >
-        <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow inline-block">
-              <img
-                src="/assets/useless.png" // Replace with your actual image path
-                alt="Useless Project"
-                className="w-full h-auto"
-              />
-            </span>
+    <span className="inline-block drop-shadow-glow">
+        <img
+          src="https://i.postimg.cc/FR3sF8NC/brave-screenshot-removebg-preview.png"
+          alt="Useless Projects"
+          className="w-[300px] h-auto"
+        />
+      </span>
+
 
           </h1>
           
