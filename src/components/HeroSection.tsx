@@ -46,9 +46,10 @@ const HeroSection = () => {
             }`}
             onClick={handleTitleClick}
           >
-            <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow">
-              
-            </span>
+          <span className="font-fun text-5xl text-green-700">
+            USELESS PROJECTS
+          </span>
+/**/
           </h1>
           
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
