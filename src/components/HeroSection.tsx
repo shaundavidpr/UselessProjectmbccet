@@ -46,14 +46,13 @@ const HeroSection = () => {
             }`}
             onClick={handleTitleClick}
           >
-         <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow inline-block">
+          <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow inline-block">
               <img
-                src="https://ibb.co/7xCqvVK0"
+                src="/assets/useless-projects-logo.png"
                 alt="Useless Projects"
                 className="w-[300px] h-auto"
               />
             </span>
-
 
           </h1>
           
