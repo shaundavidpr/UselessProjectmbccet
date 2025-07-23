@@ -47,14 +47,12 @@ const HeroSection = () => {
             onClick={handleTitleClick}
           >
     <span className="inline-block drop-shadow-glow">
-           <img
-      src="https://i.postimg.cc/FR3sF8NC/brave-screenshot-removebg-preview.png"
-      alt="Useless Projects"
-      className="w-[320px] mx-auto brightness-[1.2] contrast-150 drop-shadow-[0_0_15px_rgba(0,255,255,0.6)]"
-    />
-
-      </span>
-
+  <img
+    src="https://i.postimg.cc/FR3sF8NC/brave-screenshot-removebg-preview.png"
+    alt="Useless Projects"
+    className="w-[300px] h-auto"
+  />
+</span>
 
           </h1>
           
