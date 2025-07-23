@@ -46,10 +46,15 @@ const HeroSection = () => {
             }`}
             onClick={handleTitleClick}
           >
-          <span className="font-fun text-5xl text-green-700">
-            USELESS PROJECTS
-          </span>
-/**/
+         <span className="bg-gradient-primary bg-clip-text text-transparent drop-shadow-glow inline-block">
+              <img
+                src="https://ibb.co/7xCqvVK0"
+                alt="Useless Projects"
+                className="w-[300px] h-auto"
+              />
+            </span>
+
+
           </h1>
           
           <p className="text-xl md:text-2xl lg:text-3xl text-muted-foreground mb-8 animate-slide-in-right">
